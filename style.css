@@ -1,0 +1,211 @@
+html{
+    font-size: 13px!important;
+}
+.sticky-nav{
+    position: sticky;
+    top: 0;
+}
+.center-div{
+    margin-left: 9%!important;
+    margin-right: 9%!important;
+}
+.bg-logo{
+    color: #f94a3d!important;
+}
+.search-box{
+    flex: 1 1 auto;
+}
+.text-orange{
+    color: #f94a3d!important;
+}
+.w-fit{
+    width: fit-content;
+}
+.bg-lpink{
+    background-color: #fdecec;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-gr-frame{
+    background: linear-gradient(180deg, #fef7f6, #fffdf2);
+}
+.frame-content h1{
+    font-size: 4rem;
+}
+.btn-orange{
+    background-color: #f94a3d!important;
+    border-radius: 15px!important;
+    padding-inline: 28px;
+    border: 1px solid #f94a3d!important;
+}
+.btn-orange:hover{
+    opacity: 0.9;
+}
+
+
+
+.content-card-card{
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+.content-card{
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+.content-card-card:hover{
+    border: 2px solid orangered;
+    box-shadow: 0 2px 6px gray;
+    cursor: pointer;
+}
+.content-card-card-active{
+    border: 2px solid orangered;
+    box-shadow: 0 2px 6px gray;
+    cursor: pointer;
+}
+.content-card-card>*{
+    width: fit-content;
+}
+.content-card-card h3{
+    margin-top: 15px;
+}
+
+
+.item-card{
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    margin-inline: 2rem;
+}
+.item-card:hover{
+    cursor: pointer;
+    border-color: #f94a3d;
+    box-shadow: 0 2px 6px gray;
+}
+.item-card-active{
+    cursor: pointer;
+    border-color: #f94a3d;
+    box-shadow: 0 2px 6px gray;
+}
+.item-img{
+    width: 200px;
+    height: 220px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+#item-img-1{
+    background-image: url('./image/item1.png');
+    background-size: 190px 200px;
+}
+#item-img-2{
+    background-image: url('./image/item2.png');
+    background-size: 180px 180px;
+}
+#item-img-3{
+    background-image: url('./image/item4.png');
+    background-size: 249px 253px;
+}
+#item-img-4{
+    background-image: url('./image/item3.png');
+    background-size: 160px 208px;
+}
+.btn-outline-orange{
+    border: 1px solid #f94a3d;
+    color: #f94a3d;
+}
+.btn-outline-orange:hover{
+    background-color: #f94a3d;
+    color: white;
+}
+.btn-outline-orange-active{
+    background-color: #f94a3d;
+    color: white;
+}
+.menu{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+}
+.menu:hover{
+    color: #f94a3d;
+    border-bottom: 2px solid #f94a3d;
+}
+.menu-active{
+    color: #f94a3d;
+    border-bottom: 2px solid #f94a3d;
+}
+
+
+.footer-section{ 
+    background-color: #fef8f5;
+    font-size: 12px;
+}
+.footer-table a{
+    text-decoration: none;
+    color: rgb(152, 138, 138);    
+}
+.w-60{
+    width: 60%;
+}
+
+
+.application{
+    width: 77vw;
+    height: 54vw;
+    background-image: url('./image/application.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 77vw 54vw;
+}
+
+.customers{
+    width: 100vw;
+    height: 54vw;
+    background-image: url('./image/customers.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width:1200px){
+    .section-3{
+        flex-direction: column!important;
+    }
+    .head{
+        text-align: center;
+    }
+    .content-card{
+        width: 100%;
+        height: fit-content;
+    }
+}
+
+@media(max-width: 991px){
+    .center-div{
+        margin-left: 1%!important;
+        margin-right: 1%!important;
+    }
+    .item-card, .content-card-card{
+        width: 100%;
+        margin: 0!important;
+        margin-bottom: 20px!important;
+    }
+    .food-items{
+        width: auto;
+    }
+}
